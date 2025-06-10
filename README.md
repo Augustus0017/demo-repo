@@ -25,5 +25,3 @@ Note: You'll need to remove all non-alphanumeric characters (punctuation, spaces
 19. When the #text-input element contains a random sequence of alphanumeric characters that is not a palindrome, the #result element should say it is not a palindrome.
 
 ![Screenshot (9)](https://github.com/user-attachments/assets/0d66ba8a-667c-40e5-b100-ff931782a6fb)
-
-the cleaning function would have a result of only alphanumeric characters.
