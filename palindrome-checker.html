@@ -5,6 +5,28 @@
     <link rel="stylesheet" href="palindrome-checker.css">
   </head>
   <body>
+    <div id="container">
+      <h1>Palindrome Checker</h1>
+
+      <details>
+        <summary>What is a palindrome?</summary>
+        <p>A palindrome is a word, phrase, or sequence that reads the same backwards as forwards ignoring spacing, punctuation marks and case, e.g. madam or nurses run. <a href="https://www.google.com/search?q=palindrome+emaning&oq=palindrome+emaning&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIOCAEQABgNGEYY-QEYgAQyCQgCEAAYDRiABDIJCAMQABgNGIAEMgkIBBAAGA0YgAQyCQgFEAAYDRiABDIJCAYQABgNGIAEMgkIBxAAGA0YgAQyCQgIEAAYDRiABDIJCAkQABgNGIAE0gEINDI1MmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8" target="_blank">Oxford languages</a></p>
+        
+      </details>
+
+      <form>
+        <div id="input-container">
+          <label for="text">Enter in text to check for palindrome: </label>
+          <input type="text" id="text-input" required>
+          <button type="submit" id="check-btn">Submit</button>
+        </div>
+      </form>
+      
+      <div id="result-container" class="hide">
+        <p id="result"><span class="raw-input"></span><span class="test-result"></span></p>
+      </div>
+    </div>
+
     <script src="palindrome-checker.js"></script>
   </body>
 </html>
