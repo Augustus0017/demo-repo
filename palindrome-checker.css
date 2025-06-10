@@ -88,14 +88,14 @@ label {
   padding: 6px;
 }
 
+.hide {
+  display: none;
+}
+
 @media (max-width: 885px) {
   #container {
     width: 75%;
   }
-}
-
-.hide {
-  display: none;
 }
 
 @media (max-width: 545px) {
